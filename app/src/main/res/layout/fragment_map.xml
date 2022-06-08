@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="410dp"
+        android:layout_height="317dp"
+        android:background="@drawable/zoo"
+        android:id="@+id/zooimage"
+        />
+
+    <Button
+        android:id="@+id/negara"
+        android:layout_width="160dp"
+        android:layout_height="75dp"
+        android:layout_below="@+id/zooimage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+
+        android:text="Zoo Negara" />
+
+    <Button
+        android:id="@+id/melaka"
+        android:layout_width="160dp"
+        android:layout_height="75dp"
+        android:layout_centerHorizontal="true"
+        android:text="Zoo Melaka"
+        android:layout_below="@+id/negara"
+       />
+
+    <Button
+        android:id="@+id/taiping"
+        android:layout_width="160dp"
+        android:layout_height="75dp"
+        android:layout_centerHorizontal="true"
+        android:text="Zoo Taiping"
+        android:layout_below="@+id/melaka"
+        />
+
+
+</RelativeLayout>
