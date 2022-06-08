@@ -46,6 +46,7 @@ public class recognitionFragment extends Fragment {
 
     public recognitionFragment(){
         // require a empty public constructor
+        //testsdasd
     }
 
 
