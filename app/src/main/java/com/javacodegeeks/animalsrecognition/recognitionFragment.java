@@ -151,7 +151,7 @@ public class recognitionFragment extends Fragment {
                     @Override
                     public void onClick(View view) {
                         desc.setText(R.string.GajahAsia);
-                        result.setText("Gajah Malaysia");
+                        result.setText("Gajah Asia");
                     }
                 });
                 eng.setOnClickListener(new View.OnClickListener() {
